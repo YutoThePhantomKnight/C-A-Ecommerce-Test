@@ -60,10 +60,10 @@ _* POSTGRESQL 16_
 
 ## Construido con 🛠️
 
-* [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - Driver de SqlServer
-* [echo](https://echo.labstack.com/) - El framework utilizado
-* [CORS Middleware](https://echo.labstack.com/middleware/cors/) - El control de acceso
-* [GofPdf](https://github.com/jung-kurt/gofpdf) - La librería utilizada para crear el PDF
+* [NodeJs](https://nodejs.org/en/download) - Tecnología usada en el backend
+* [Angular Cli](https://angular.io/cli) - Tecnología usada en el frontend
+* [Postgresql](https://www.postgresql.org/download/) - Gestor de base de datos
+
 
 ## Versionado 📌
 
