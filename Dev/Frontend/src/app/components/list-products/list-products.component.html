@@ -1,0 +1,17 @@
+<div class="container">
+    <h4>HOMBRES: ({{ listProducts.length }}) resultados</h4>
+    <div class="row">
+      <div class="col" *ngFor="let product of listProducts">
+        <div class="card">
+            <img class="card-img-top" src="https://static.wixstatic.com/media/c18d14_bf8bf0c0af3941ae8b11f6bdd0f9a153~mv2.jpg/v1/fill/w_675,h_800,al_c,q_85,enc_auto/c18d14_bf8bf0c0af3941ae8b11f6bdd0f9a153~mv2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">Costo: ${{ product.cost }}</p>
+          <p class="card-text">Colores disponibles: {{ product.colors }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ 
